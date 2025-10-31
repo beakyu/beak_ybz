@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Annotation Tool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #444;
+    }
+
+    #fileSelector, #recordNavigator {
+      padding: 5px;
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .nav-controls button {
+      padding: 10px 15px;
+      margin: 5px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .nav-controls button:hover {
+      background-color: #0056b3;
+    }
+
+    #canvas {
+      border: 0px solid #ccc;
+      background-color: white;
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+    }
+
+    #annotations {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .annotation label {
+      display: block;
+      margin: 5px 0;
+      font-weight: bold;
+    }
+
+    .annotation input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    #saveAnnotations {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #saveAnnotations:hover {
+      background-color: #218838;
+    }
+
+
+    @media (max-width: 768px) {
+      .nav-controls button {
+        padding: 8px;
+        font-size: 12px;
+      }
+
+      #saveAnnotations {
+        font-size: 14px;
+      }
+
+      .annotation input[type="text"] {
+        font-size: 12px;
+      }
+    }
+  </style>
+
+  <style>
+    .radio-group {
+      margin-top: -20px;
+      display: flex; /* Align options horizontally */
+      gap: 16px; /* Space between radio options */
+    }
+
+    .radio-option {
+      display: flex; /* Prevent label from taking up the whole line */
+      align-items: center;
+      gap: 4px; /* Space between radio button and text */
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    input[type="radio"] {
+      margin: 0; /* Remove default margin for consistency */
+    }
+  </style>
+</head>
+<body>
+
+  <label for="fileSelector">Select JSON File:</label>
+  <select id="fileSelector">
+    <option value="" disabled selected>Select a file</option>
+  </select>
+  <br><br>
+
+  <div class="nav-controls">
+    <button id="prevRecord">Previous</button>
+    <input type="number" id="recordNavigator" min="1" style="width: 50px;">
+    <span id="totalTasks"></span>
+    <button id="nextRecord">Next</button>
+
+    <button id="saveAnnotations">Save Annotations</button>
+  </div>
+  
+  <canvas id="canvas"></canvas>
+  
+  
+
+  <h2>Annotation Details</h2>
+  <div id="annotations"></div>
+
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const annotationsDiv = document.getElementById('annotations');
+    const fileSelector = document.getElementById('fileSelector');
+    const recordNavigator = document.getElementById('recordNavigator');
+    const totalTasks = document.getElementById('totalTasks');
+    const image = new Image();
+    const serverRoot = 'http://localhost:8000'; // Replace with your actual server root path
+    let annotationData = []; // Holds all records
+    let currentIndex = 0;
+    let startX, startY, isDrawing = false;
+
+    // Dynamically populate file selector
+    const availableFiles = [
+      "android_studio_macos.json",
+      "davinci_macos.json",
+      "fruitloops_windows.json",
+      "linux_common_linux.json",
+      "origin_windows.json",
+      "premiere_windows.json",
+      "solidworks_windows.json",
+      "vivado_windows.json",
+      "windows_common_windows.json",
+      "autocad_windows.json",
+      "eviews_windows.json",
+      "illustrator_windows.json",
+      "macos_common_macos.json",
+      "photoshop_windows.json",
+      "pycharm_macos.json",
+      "stata_windows.json",
+      "vmware_macos.json",
+      "word_macos.json",
+      "blender_windows.json",
+      "excel_macos.json",
+      "inventor_windows.json",
+      "matlab_macos.json",
+      "powerpoint_windows.json",
+      "quartus_windows.json",
+      "unreal_engine_windows.json",
+      "vscode_macos.json"
+    ]
+    
+    availableFiles.forEach(file => {
+      const option = document.createElement('option');
+      option.value = file;
+      option.textContent = file;
+      fileSelector.appendChild(option);
+    });
+
+    fileSelector.addEventListener('change', (e) => {
+      selectedFile = e.target.value;
+      fetch(`${serverRoot}/annotations/${selectedFile}`) // Assuming the files are accessible via HTTP
+        .then(response => response.json())
+        .then(data => {
+          annotationData = data;
+          currentIndex = 0;
+          loadRecord();
+        });
+    });
+
+    document.getElementById('prevRecord').addEventListener('click', () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        loadRecord();
+      }
+    });
+
+    document.getElementById('nextRecord').addEventListener('click', () => {
+      if (currentIndex < annotationData.length - 1) {
+        currentIndex++;
+        loadRecord();
+      }
+    });
+
+    recordNavigator.addEventListener('change', (e) => {
+      const index = parseInt(e.target.value, 10) - 1;
+      if (index >= 0 && index < annotationData.length) {
+        currentIndex = index;
+        loadRecord();
+      } else {
+        alert('Invalid record number.');
+      }
+    });
+
+    function loadRecord() {
+      const record = annotationData[currentIndex];
+      document.getElementById('annotations').innerHTML = '';
+      if (record) {
+        image.src = `${serverRoot}/images/${record.img_filename}`;
+        annotation = record;
+        addAnnotationUI(record);
+        updateProgress();
+      }
+    }
+
+    image.onload = function() {
+      // Set canvas size based on image size
+      canvas.width = image.width;
+      canvas.height = image.height;
+
+      // Redraw the image on the canvas
+      ctx.drawImage(image, 0, 0);
+
+      // Get the bounding box in real image coordinates
+      const [bboxX1, bboxY1, bboxX2, bboxY2] = annotation.bbox;
+
+
+      // Redraw the bounding box on the canvas after scaling
+      ctx.strokeStyle = 'red';
+      ctx.lineWidth = 3;
+      ctx.strokeRect(bboxX1, bboxY1, bboxX2 - bboxX1, bboxY2 - bboxY1);
+
+      // Update the bbox display with the scaled coordinates (in real image space)
+      document.getElementById('bboxDisplay').textContent = `${Math.round(bboxX1)}, ${Math.round(bboxY1)}, ${Math.round(bboxX2)}, ${Math.round(bboxY2)}`;
+    };
+
+
+    function drawAnnotation() {
+      if (!annotation || !annotation.bbox) return;
+      ctx.drawImage(image, 0, 0);
+      const [x1, y1, x2, y2] = annotation.bbox;
+      ctx.strokeStyle = 'red';
+      ctx.lineWidth = 3;
+      ctx.strokeRect(x1, y1, x2 - x1, y2 - y1);
+    }
+
+    function updateProgress() {
+      recordNavigator.value = currentIndex + 1;
+      totalTasks.textContent = `/ ${annotationData.length} Tasks`;
+    }
+
+    function addAnnotationUI(record) {
+      const container = document.createElement('div');
+      container.classList.add('annotation');
+      container.innerHTML = `
+        <label>Instruction: <input type="text" value="${record.instruction}" onchange="updateAnnotation(this, 'instruction')"></label><br>
+        <label>Instruction (Chinese): <input type="text" value="${record.instruction_cn}" onchange="updateAnnotation(this, 'instruction_cn')"></label><br>
+        <label>UI Type:</label><br>
+        <div class="radio-group">
+          <label class="radio-option">
+            <input type="radio" name="ui_type" value="icon" onchange="updateAnnotation(this, 'ui_type')">
+            Icon
+          </label>
+          <label class="radio-option">
+            <input type="radio" name="ui_type" value="text" onchange="updateAnnotation(this, 'ui_type')">
+            Text
+          </label>
+        </div>
+        <label>BBox: <span id="bboxDisplay">${record.bbox.join(', ')}</span></label><br>
+      `;
+      annotationsDiv.appendChild(container);
+      // Pre-select the radio button based on existing value
+      document.querySelectorAll(`input[name="ui_type"]`).forEach((radio) => {
+        if (radio.value === record.ui_type) {
+          radio.checked = true;
+        }
+      });
+    }
+
+    function updateAnnotation(input, field) {
+      annotation[field] = input.value;
+      annotationData[currentIndex] = annotation;
+    }
+
+
+    let scaleX, scaleY; // Dynamic scale factors
+
+    function getScaleFactor() {
+      return {
+        scaleX: image.naturalWidth / canvas.clientWidth,  // Image width to canvas display width
+        scaleY: image.naturalHeight / canvas.clientHeight // Image height to canvas display height
+      };
+    }
+
+    // Mouse down event to start drawing
+    canvas.addEventListener('mousedown', (e) => {
+      // Get the position of the canvas on the screen
+      const rect = canvas.getBoundingClientRect();
+      
+      // Get mouse coordinates relative to the canvas
+      const canvasX = e.clientX - rect.left;
+      const canvasY = e.clientY - rect.top;
+
+      // Convert to real image space
+      const { scaleX, scaleY } = getScaleFactor();
+      startX = canvasX * scaleX;
+      startY = canvasY * scaleY;
+
+      isDrawing = true;
+    });
+
+    // Mouse move event to draw the box
+    canvas.addEventListener('mousemove', (e) => {
+      if (!isDrawing) return;
+
+      // Get the position of the canvas on the screen
+      const rect = canvas.getBoundingClientRect();
+
+      // Get mouse coordinates relative to the canvas
+      const canvasX = e.clientX - rect.left;
+      const canvasY = e.clientY - rect.top;
+
+      // Convert to real image space
+      const { scaleX, scaleY } = getScaleFactor();
+      const realX = canvasX * scaleX;
+      const realY = canvasY * scaleY;
+
+      // Clear the canvas and redraw the image in real image space
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(image, 0, 0, image.naturalWidth, image.naturalHeight);
+
+      // Calculate width and height of the rectangle in real image space
+      const width = realX - startX;
+      const height = realY - startY;
+
+      // Draw the bounding box in real image space
+      ctx.strokeStyle = 'red';
+      ctx.lineWidth = 3;
+      ctx.strokeRect(startX, startY, width, height);
+    });
+
+    // Mouse up event to finalize the bounding box
+    canvas.addEventListener('mouseup', (e) => {
+      if (!isDrawing) return;
+
+      // Get the position of the canvas on the screen
+      const rect = canvas.getBoundingClientRect();
+
+      // Get mouse coordinates relative to the canvas
+      const canvasX = e.clientX - rect.left;
+      const canvasY = e.clientY - rect.top;
+
+      isDrawing = false;
+
+      // Convert to real image space
+      const { scaleX, scaleY } = getScaleFactor();
+      const realX = canvasX * scaleX;
+      const realY = canvasY * scaleY;
+
+      // Store the bounding box in real image space
+      const bboxX1 = Math.min(startX, realX);
+      const bboxY1 = Math.min(startY, realY);
+      const bboxX2 = Math.max(startX, realX);
+      const bboxY2 = Math.max(startY, realY);
+
+      // Save the bounding box
+      annotation.bbox = [parseInt(bboxX1, 10), parseInt(bboxY1, 10), parseInt(bboxX2, 10), parseInt(bboxY2, 10)];
+      annotationData[currentIndex] = annotation;
+
+      // Redraw the image and final bounding box in real image space
+      ctx.clearRect(0, 0, canvas.width, canvas.height);  // Clear the canvas
+      ctx.drawImage(image, 0, 0, image.naturalWidth, image.naturalHeight);  // Redraw the image
+
+      // Draw the final bounding box in real image space
+      ctx.strokeStyle = 'red';
+      ctx.lineWidth = 3;
+      ctx.strokeRect(startX, startY, realX - startX, realY - startY);
+
+      // Update the bbox display with the real image space coordinates
+      document.getElementById('bboxDisplay').textContent = annotation.bbox.join(', ');
+    });
+
+
+
+
+    document.getElementById('saveAnnotations').addEventListener('click', () => {
+      const blob = new Blob([JSON.stringify(annotationData, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = selectedFile;
+      a.click();
+    });
+  </script>
+</body>
+</html>
